@@ -1,0 +1,85 @@
+/*normalize*/
+*{
+    padding: 0;
+    margin: 0;
+}
+/*body*/
+body{
+    background-color: #888;
+}
+/*end of body*/
+
+/*start of navbar*/
+.navbar{
+    background-color: #000;
+    padding: 10px;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+/*End of navbar*/
+
+/*start of hero*/
+.hero{
+    width: 90%;
+    height: 40vh;
+    background: url(../IMG/IMG-20211227-WA0001.jpg) no-repeat scroll center;
+    margin: 20px auto;
+    background-size: cover;
+    border-radius: 5px;
+}
+/*end of hero*/
+/*heading*/
+.heading{
+    text-align: center;
+}
+/*end of heading*/
+
+/*start of products*/
+.products{
+    margin-top: 35px;
+}
+.products .pro{
+    width: 18%;
+    height: 30vh;
+    background-color: #000;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+.products .pro img{
+    width: 200px;
+    height: 100px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.products .pro h3{
+    margin-bottom: 7px;
+}
+.products .pro p{
+    margin-bottom: 5px;
+}
+.products .pro button{
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.pro1{
+    margin-left: 1.3%;
+}
+.pro2{
+    margin-left: 27% ;
+}
+.pro3{
+    margin-left: 53%;
+}
+.pro4{
+    margin-left: 78%;
+}
+/*end of products*/
